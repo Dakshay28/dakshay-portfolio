@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Phone, MapPin, Calendar, Code, Globe, Users, Award, ChevronRight, Menu, X, ExternalLink, Github, Linkedin } from 'lucide-react';
+import { Mail, Phone, MapPin, Calendar, Code, Globe, Users, Award, ChevronRight, Menu, X, ExternalLink, Github, Linkedin, Briefcase } from 'lucide-react';
 
 function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -26,28 +26,61 @@ function App() {
     { name: 'Google Analytics', level: 80 },
     { name: 'Google Tag Manager', level: 70 },
     { name: 'Google Optimize / A/B Testing', level: 80 },
-    { name: ' Google Cloud API Integration ', level: 80 }
-  
+    { name: 'Google Cloud API Integration', level: 80 },
+    { name: 'Dashboard Development', level: 88 },
+    { name: 'Database Design (Supabase)', level: 85 },
+    { name: 'Team Leadership', level: 82 }
   ];
 
   const projects = [
     {
+      title: 'escindia.in',
+      company: 'Electronics and Computer Software Export Promotion Council (ESC)',
+      description: 'Official ESC India platform featuring comprehensive information about council initiatives, member directories, and export promotion programs. Complete redesign with modern UI/UX, advanced filtering, and SEO optimization.',
+      tech: ['WordPress', 'Elementor', 'PHP', 'MySQL', 'JavaScript'],
+      features: ['Member Directory System', 'Advanced Search & Filter', 'SEO-Optimized Structure', 'Responsive Design', 'Performance Optimization', 'Custom Forms Integration']
+    },
+    {
+      title: 'indiasoft.org',
+      company: 'Electronics and Computer Software Export Promotion Council (ESC)',
+      description: 'India Software platform showcasing the Indian software industry, export statistics, and industry resources. Features dynamic content management and real-time data integration.',
+      tech: ['WordPress', 'PHP', 'REST API',],
+      features: ['Dynamic Dashboard', 'Industry Statistics Integration', 'Real-time Data Sync', 'Document Management', 'Multi-language Support', 'Analytics Dashboard']
+    },
+    {
+      title: 'indiaelectronicsexpo.com',
+      company: 'Electronics and Computer Software Export Promotion Council (ESC)',
+      description: 'India Electronics Expo platform for international exhibitions featuring exhibitor listings, event details, and delegate management. Includes comprehensive event portal with real-time updates.',
+      tech: ['WordPress', 'PHP', 'React.js', 'Supabase', 'Elementor'],
+      features: [ 'Event Schedule & Calendar', 'Delegate Registration Portal',  'Booth Allocation System', 'PDF Export Functionality']
+    },
+    {
+      title: 'ESC B2B Meeting Portal',
+      company: 'Electronics and Computer Software Export Promotion Council (ESC)',
+      description: 'Enterprise B2B meeting platform enabling delegates to discover, filter, and book meetings with exhibitors. Unified authentication using passport-based login system with real-time synchronization.',
+      tech: ['WordPress', 'PHP', 'React.js', 'Supabase', 'Ninja Forms', 'Google Sheets API'],
+      features: ['Passport-Based Authentication', 'Real-time Meeting Booking', 'Advanced Filtering & Tags', 'Delegate-Exhibitor Matchmaking', 'Event Dashboard', 'Bulk Data Ingestion']
+    },
+    {
       title: 'iDreamCareer.com',
-      description: 'Full-stack WordPress development with Elementor, featuring 100+ landing pages, custom plugins, and advanced integrations.',
-      tech: ['WordPress', 'Elementor', 'JavaScript', 'PHP', 'REST API'],
-      features: ['Custom Plugin Development', 'WebEngage Integration', 'Performance Optimization', 'Core Web Vitals Optimization']
+      company: 'iDreamCareer',
+      description: 'Full-stack WordPress development with Elementor, featuring 100+ landing pages, custom plugins, and advanced integrations for career guidance and exam preparation.',
+      tech: ['WordPress', 'Elementor', 'JavaScript', 'PHP', 'REST API', 'WebEngage'],
+      features: ['Custom Plugin Development', 'WebEngage Integration', 'Performance Optimization', 'Core Web Vitals Optimization', '100+ Landing Pages']
     },
     {
       title: 'FAQ.idreamcareer.com',
-      description: 'Dynamic FAQ platform with WordPress REST API integration for centralized content management.',
+      company: 'iDreamCareer',
+      description: 'Dynamic FAQ platform with WordPress REST API integration for centralized content management and automated content fetching from main database.',
       tech: ['WordPress', 'REST API', 'JavaScript', 'PHP'],
-      features: ['Automated Content Fetching', 'Q&A Format Conversion', 'SEO-Optimized Structure']
+      features: ['Automated Content Fetching', 'Q&A Format Conversion', 'SEO-Optimized Structure', 'Centralized Management']
     },
     {
       title: 'Exams.idreamcareer.com',
-      description: 'Comprehensive exams directory with 200+ pages and detailed application guides for competitive exams.',
-      tech: ['WordPress', 'Custom Post Types', 'SEO', 'Responsive Design'],
-      features: ['Hierarchical URL Structure', '15 Component Sub-pages', 'Educational Content Management']
+      company: 'iDreamCareer',
+      description: 'Comprehensive exams directory with 200+ pages and detailed application guides for competitive exams with hierarchical navigation structure.',
+      tech: ['WordPress', 'Custom Post Types', 'SEO', 'Responsive Design', 'JavaScript'],
+      features: ['Hierarchical URL Structure', '15 Component Sub-pages', 'Educational Content Management', 'Advanced Search & Filter']
     }
   ];
 
@@ -56,7 +89,40 @@ function App() {
     'Developed 100+ optimized landing pages',
     'Created custom WordPress plugins with advanced validation',
     'Implemented webhook integrations for lead management',
-    'Built comprehensive exam directory with 200+ pages'
+    'Built comprehensive exam directory with 200+ pages',
+    'Led successful redevelopment of 4 high-traffic ESC platforms',
+    'Managed cross-functional teams across development and marketing',
+    'Designed unified B2B portal handling 1000+ delegates per event'
+  ];
+
+  const experiences = [
+    {
+      title: 'Manager Web Developer',
+      company: 'Electronics and Computer Software Export Promotion Council (ESC), India',
+      duration: '20 Jul, 2025, - Present',
+      responsibilities: [
+        'Led end-to-end redevelopment of multiple high-traffic ESC platforms (escindia.in, indiasoft.org, indiaelectronicsexpo.com, escawards.in)',
+        'Managed cross-functional team of 2 developers and 1 marketing agency for seamless execution',
+        'Built custom PHP-based dashboards and ESC Accelerator platform with advanced backend logic',
+        'Architected B2B Meeting Portal with passport-based unified authentication system',
+        'Implemented bulk data ingestion workflows using Supabase for real-time exhibitor and delegate access',
+        'Integrated Elementor Ninja Forms with automated data pipelines to Google Sheets and databases',
+        'Migrated legacy event data while preserving historical records and improving onboarding speed'
+      ],
+      highlights: ['4 Platforms Redeveloped', '1000+ Delegates per Event', 'Unified Authentication System']
+    },
+    {
+      title: 'Senior WordPress Developer',
+      company: 'iDreamCareer.com',
+      duration: 'May 2021 - 17 Jul, 2025, (4+ Years)',
+      responsibilities: [
+        'Developed iDreamCareer.com using Elementor Page Builder with custom JavaScript and CSS',
+        'Created and optimized 100+ landing pages and custom post-type directories',
+        'Built custom WordPress plugins with specialized validation for Indian phone numbers',
+        'Developed webhook integrations for streamlined data transmission and lead management'
+      ],
+      highlights: ['100+ Landing Pages', '200+ Exam Directory Pages', '95% Core Web Vitals Score']
+    }
   ];
 
   const scrollToSection = (sectionId) => {
@@ -171,18 +237,16 @@ function App() {
             <div>
               <h3 className="text-2xl font-semibold mb-4 text-blue-400">Professional Overview</h3>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                Senior WordPress Developer with 4+ years of experience at iDreamCareer.com, specializing in full-stack development, 
-                custom plugin creation, and performance optimization. Expert in modern web technologies including React.js, JavaScript, 
-                PHP, and RESTful API integrations.
+                     Manager – Web Development with 5+ years of experience leading the design, development, and scaling of high-performance web platforms. Currently managing web and application initiatives at the Electronics and Computer Software Export Promotion Council (ESC), following extensive hands-on experience delivering growth-driven platforms at iDreamCareer. Strong expertise in custom WordPress development, PHP-based dashboards, B2B portals, RESTful APIs, and performance optimization, with proven ability to coordinate cross-functional teams and translate business requirements into secure, scalable digital solutions.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mb-6">
-                I've successfully developed and optimized 100+ landing pages, created custom WordPress plugins, and implemented 
-                advanced integrations that significantly improved user engagement and site performance.
+                I've successfully developed and optimized 100+ landing pages, created custom WordPress plugins, implemented advanced integrations that significantly improved user engagement, and led the redevelopment of multiple high-traffic platforms. Experienced in managing cross-functional teams and delivering enterprise-scale solutions.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full text-sm">4+ Years Experience</span>
                 <span className="bg-purple-600/20 text-purple-400 px-3 py-1 rounded-full text-sm">100+ Projects</span>
                 <span className="bg-green-600/20 text-green-400 px-3 py-1 rounded-full text-sm">Core Web Vitals Expert</span>
+                <span className="bg-indigo-600/20 text-indigo-400 px-3 py-1 rounded-full text-sm">Team Leadership</span>
               </div>
             </div>
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
@@ -201,6 +265,13 @@ function App() {
                   <div>
                     <h4 className="font-semibold text-white">WordPress Expert Certification</h4>
                     <p className="text-gray-400">Advanced WordPress Development & Optimization</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-4">
+                  <Briefcase className="text-green-400 mt-1" size={20} />
+                  <div>
+                    <h4 className="font-semibold text-white">Team Leadership & Project Management</h4>
+                    <p className="text-gray-400">Cross-functional team coordination and enterprise solution delivery</p>
                   </div>
                 </div>
               </div>
@@ -258,36 +329,85 @@ function App() {
           <h2 className="text-4xl font-bold text-center mb-12 bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
             Featured Projects
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {projects.map((project, index) => (
-              <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300">
-                <h3 className="text-xl font-bold mb-3 text-blue-400">{project.title}</h3>
-                <p className="text-gray-300 mb-4 leading-relaxed">{project.description}</p>
-                
-                <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-purple-400 mb-2">Technologies:</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {project.tech.map((tech, techIndex) => (
-                      <span key={techIndex} className="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">
-                        {tech}
-                      </span>
-                    ))}
+          
+          {/* ESC Projects */}
+          <div className="mb-16">
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold text-blue-400 mb-2">Electronics and Computer Software Export Promotion Council (ESC)</h3>
+              <div className="h-1 w-24 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full"></div>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-8">
+              {projects.filter(p => p.company.includes('ESC')).map((project, index) => (
+                <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 flex flex-col border border-blue-500/20">
+                  <h3 className="text-xl font-bold mb-2 text-blue-400">{project.title}</h3>
+                  <p className="text-sm text-blue-300 mb-3">{project.company}</p>
+                  <p className="text-gray-300 mb-4 leading-relaxed flex-grow">{project.description}</p>
+                  
+                  <div className="mb-4">
+                    <h4 className="text-sm font-semibold text-purple-400 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tech.map((tech, techIndex) => (
+                        <span key={techIndex} className="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-sm font-semibold text-green-400 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-400 space-y-1">
+                      {project.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-start gap-2">
+                          <ChevronRight size={14} className="text-green-400 mt-0.5 flex-shrink-0" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
                 </div>
-                
-                <div className="mb-4">
-                  <h4 className="text-sm font-semibold text-green-400 mb-2">Key Features:</h4>
-                  <ul className="text-sm text-gray-400 space-y-1">
-                    {project.features.map((feature, featureIndex) => (
-                      <li key={featureIndex} className="flex items-start gap-2">
-                        <ChevronRight size={14} className="text-green-400 mt-0.5 flex-shrink-0" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
+              ))}
+            </div>
+          </div>
+
+          {/* iDreamCareer Projects */}
+          <div>
+            <div className="mb-8">
+              <h3 className="text-3xl font-bold text-purple-400 mb-2">iDreamCareer</h3>
+              <div className="h-1 w-24 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
+            </div>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {projects.filter(p => p.company.includes('iDreamCareer')).map((project, index) => (
+                <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 hover:transform hover:scale-105 transition-all duration-300 flex flex-col border border-purple-500/20">
+                  <h3 className="text-xl font-bold mb-2 text-purple-400">{project.title}</h3>
+                  <p className="text-sm text-purple-300 mb-3">{project.company}</p>
+                  <p className="text-gray-300 mb-4 leading-relaxed flex-grow">{project.description}</p>
+                  
+                  <div className="mb-4">
+                    <h4 className="text-sm font-semibold text-blue-400 mb-2">Technologies:</h4>
+                    <div className="flex flex-wrap gap-2">
+                      {project.tech.map((tech, techIndex) => (
+                        <span key={techIndex} className="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">
+                          {tech}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-sm font-semibold text-green-400 mb-2">Key Features:</h4>
+                    <ul className="text-sm text-gray-400 space-y-1">
+                      {project.features.map((feature, featureIndex) => (
+                        <li key={featureIndex} className="flex items-start gap-2">
+                          <ChevronRight size={14} className="text-green-400 mt-0.5 flex-shrink-0" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </section>
@@ -299,76 +419,69 @@ function App() {
             Professional Experience
           </h2>
           
-          <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
-            <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
-              <div>
-                <h3 className="text-2xl font-bold text-white mb-2">Senior WordPress Developer</h3>
-                <p className="text-blue-400 text-lg font-semibold">iDreamCareer.com</p>
+          <div className="space-y-8">
+            {experiences.map((exp, index) => (
+              <div key={index} className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8">
+                <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
+                  <div>
+                    <h3 className="text-2xl font-bold text-white mb-2">{exp.title}</h3>
+                    <p className="text-blue-400 text-lg font-semibold">{exp.company}</p>
+                  </div>
+                  <div className="flex items-center gap-2 text-gray-400 mt-4 md:mt-0">
+                    <Calendar size={18} />
+                    <span>{exp.duration}</span>
+                  </div>
+                </div>
+                
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h4 className="text-lg font-semibold text-purple-400 mb-4">Key Responsibilities</h4>
+                    <ul className="space-y-3 text-gray-300">
+                      {exp.responsibilities.map((responsibility, respIndex) => (
+                        <li key={respIndex} className="flex items-start gap-3">
+                          <ChevronRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
+                          {responsibility}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  
+                  <div>
+                    <h4 className="text-lg font-semibold text-green-400 mb-4">Key Highlights</h4>
+                    <div className="space-y-4">
+                      {exp.highlights.map((highlight, highlightIndex) => (
+                        <div key={highlightIndex} className="flex items-start gap-3">
+                          <Award size={16} className="text-green-400 mt-1 flex-shrink-0" />
+                          <span className="text-gray-300">{highlight}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div className="flex items-center gap-2 text-gray-400">
-                <Calendar size={18} />
-                <span>May 2021 - Present (3+ Years)</span>
-              </div>
+            ))}
+          </div>
+
+          <div className="mt-12 grid md:grid-cols-4 gap-6">
+            <div className="text-center">
+              <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
+              <p className="text-gray-400">Landing Pages</p>
             </div>
-            
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <h4 className="text-lg font-semibold text-purple-400 mb-4">Key Responsibilities</h4>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-start gap-3">
-                    <ChevronRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
-                    Developed iDreamCareer.com using Elementor Page Builder with custom JavaScript and CSS
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <ChevronRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
-                    Created and optimized 100+ landing pages and custom post-type directories
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <ChevronRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
-                    Built custom WordPress plugins with specialized validation for Indian phone numbers
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <ChevronRight size={16} className="text-blue-400 mt-1 flex-shrink-0" />
-                    Developed webhook integrations for streamlined data transmission and lead management
-                  </li>
-                </ul>
-              </div>
-              
-              <div>
-                <h4 className="text-lg font-semibold text-green-400 mb-4">Major Achievements</h4>
-                <ul className="space-y-3 text-gray-300">
-                  {achievements.map((achievement, index) => (
-                    <li key={index} className="flex items-start gap-3">
-                      <Award size={16} className="text-green-400 mt-1 flex-shrink-0" />
-                      {achievement}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-purple-400 mb-2">4</div>
+              <p className="text-gray-400">Platforms Redeveloped</p>
             </div>
-            
-            <div className="mt-8 pt-6 border-t border-gray-700">
-              <h4 className="text-lg font-semibold text-blue-400 mb-4">Technical Highlights</h4>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-400 mb-2">100+</div>
-                  <p className="text-gray-400">Landing Pages Created</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">200+</div>
-                  <p className="text-gray-400">Exam Directory Pages</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-green-400 mb-2">95%</div>
-                  <p className="text-gray-400">Core Web Vitals Score</p>
-                </div>
-              </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-green-400 mb-2">1000+</div>
+              <p className="text-gray-400">Delegates per Event</p>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl font-bold text-pink-400 mb-2">3+</div>
+              <p className="text-gray-400">Years at iDream</p>
             </div>
           </div>
         </div>
       </section>
-
-      
 
       {/* Contact Section */}
       <section id="contact" className="py-20 px-4">
@@ -380,7 +493,7 @@ function App() {
           <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 mb-8">
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
               Ready to bring your web development projects to life? I specialize in creating high-performance, 
-              scalable WordPress solutions and modern React.js applications.
+              scalable WordPress solutions, modern React.js applications, and enterprise B2B platforms.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 mb-8">
@@ -401,7 +514,7 @@ function App() {
               </div>
             </div>
             
-            <div id="contact" className="flex justify-center gap-4">
+            <div className="flex justify-center gap-4">
             <a href="mailto:dakshay.chauhan.28.srk@gmail.com">
               <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 flex items-center gap-2">
                 <Mail size={20} />
@@ -435,7 +548,6 @@ function App() {
                 <div className="w-10 h-10 bg-blue-800 rounded-full flex items-center justify-center hover:bg-blue-900 transition-colors cursor-pointer">
                   <Linkedin size={20}  />
                 </div> </a>
-                
               </div>
               <p className="text-gray-500 text-sm">© 2025 Dakshay Chauhan. All rights reserved.</p>
             </div>
@@ -449,9 +561,9 @@ function App() {
               <span>•</span>
               <span>Performance Optimization</span>
               <span>•</span>
-              <span>Custom Plugin Development</span>
+              <span>Team Leadership</span>
               <span>•</span>
-              <span>API Integration</span>
+              <span>B2B Platform Development</span>
             </div>
           </div>
         </div>
