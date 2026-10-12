@@ -1,0 +1,144 @@
+// Services, testimonials and the marquee line.
+
+export const services = [
+  {
+    id: 'themes',
+    title: 'Custom WordPress Themes',
+    body: 'Hand-built themes with clean templates, custom blocks and fields your team can actually edit.',
+    icon: 'blocks',
+  },
+  {
+    id: 'woo',
+    title: 'WooCommerce Stores',
+    body: 'Product templates, checkout tweaks, payment and shipping setup — a store that sells, not just lists.',
+    icon: 'cart',
+  },
+  {
+    id: 'speed',
+    title: 'Speed Optimization',
+    body: 'Core Web Vitals fixes: images, caching, script diet and database cleanup, measured before and after.',
+    icon: 'gauge',
+  },
+  {
+    id: 'redesign',
+    title: 'Website Redesign',
+    body: 'A fresh design on your existing content, migrated without losing rankings or links.',
+    icon: 'refresh',
+  },
+  {
+    id: 'react',
+    title: 'React Web Apps',
+    body: 'Front-ends and dashboards in React when the job needs more than a CMS — or a headless WordPress.',
+    icon: 'atom',
+  },
+  {
+    id: 'care',
+    title: 'Maintenance & Security',
+    body: 'Updates, backups, uptime checks and hardening, so the site keeps working while you run the business.',
+    icon: 'shield',
+  },
+  {
+    id: 'figma',
+    title: 'Figma / PDF to WordPress',
+    body: 'Send the design; get a pixel-faithful, responsive WordPress build you can edit.',
+    icon: 'pen',
+  },
+]
+
+// ---------------------------------------------------------------
+// Testimonials — three kinds of voices:
+//   type: 'manager' | 'team' | 'client'
+//
+// Fields
+//   name, role, company     who said it
+//   relation                one line on how you worked together
+//                           ("Managed Dakshay at ESC, 2025 – present")
+//   quote                   their words, verbatim — 2–4 sentences
+//   rating                  clients only (1–5); managers/team show no stars
+//   source                  optional link to the original
+//                           (LinkedIn recommendation, Fiverr review)
+//   placeholder: true       shows a "sample" badge — remove once real
+//
+// IMPORTANT: these are placeholders, not real feedback. Ask before
+// publishing anyone's words, quote them exactly, and keep work details
+// that aren't public out of it. LinkedIn recommendations are the easiest
+// source: they are already public and the person wrote them for this.
+// ---------------------------------------------------------------
+export const testimonials = [
+  {
+    type: 'manager',
+    name: 'Manager name',
+    role: 'Their title',
+    company: 'ESC',
+    relation: 'Managed Dakshay at ESC',
+    quote: 'Paste your current manager’s feedback here. The best ones mention a specific site or launch and what it changed for the team.',
+    source: '',
+    placeholder: true,
+  },
+  {
+    type: 'manager',
+    name: 'Manager name',
+    role: 'Their title',
+    company: 'iDreamCareer.com',
+    relation: 'Managed Dakshay at iDreamCareer, 2021 – 2025',
+    quote:
+      'Paste feedback from your iDreamCareer manager here, for example from a LinkedIn recommendation or an appraisal they are happy to share.',
+    source: '',
+    placeholder: true,
+  },
+  {
+    type: 'team',
+    name: 'Teammate name',
+    role: 'Designer / Developer / SEO',
+    company: 'ESC',
+    relation: 'Worked with Dakshay on the event sites',
+    quote: 'Feedback from a designer, developer or content teammate fits here: what Dakshay is like to work with day to day.',
+    source: '',
+    placeholder: true,
+  },
+  {
+    type: 'team',
+    name: 'Teammate name',
+    role: 'Their role',
+    company: 'iDreamCareer.com',
+    relation: 'Shipped campaign pages with Dakshay',
+    quote: 'A second teammate quote. Hand-off, code quality and how deadlines were handled are good things for them to mention.',
+    source: '',
+    placeholder: true,
+  },
+  {
+    type: 'client',
+    name: 'Client name',
+    role: 'Owner',
+    company: 'Company · Fiverr order',
+    relation: 'Freelance client',
+    rating: 5,
+    quote: 'Paste a real client review here. Short and specific works best: what you built, how it went, what changed for them.',
+    source: '',
+    placeholder: true,
+  },
+  {
+    type: 'client',
+    name: 'Client name',
+    role: 'Founder',
+    company: 'Company · WooCommerce store',
+    relation: 'Freelance client',
+    rating: 5,
+    quote: 'Paste a second client review here, ideally one that mentions speed, communication or a result they measured.',
+    source: '',
+    placeholder: true,
+  },
+]
+
+export const marqueeItems = ['WORDPRESS', 'PHP', 'REACT', 'WOOCOMMERCE', 'SPEED OPTIMIZATION', 'AVAILABLE FOR FREELANCE']
+
+export const projectTypes = [
+  'Custom WordPress theme',
+  'WooCommerce store',
+  'Speed optimization',
+  'Redesign',
+  'React web app',
+  'Maintenance',
+  'Something else',
+]
+export const budgets = ['< $500', '$500 – $1.5k', '$1.5k – $5k', '$5k +', 'Not sure yet']
