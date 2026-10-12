@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // base: './' makes the build work on any GitHub Pages path
 // (https://<user>.github.io/<repo>/) without hard-coding the repo name.
 export default defineConfig({
-  base: './dakshay-portfolio/',
+  base: '/dakshay-portfolio/',
   plugins: [react()],
   build: {
     target: 'es2020',
