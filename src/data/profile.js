@@ -10,8 +10,8 @@ export const profile = {
   headline: 'WordPress & PHP Developer | Full-Stack Web Developer',
   role: 'WordPress & PHP Developer',
   roleSecondary: 'Full-Stack Web Developer',
-  experienceYears: '6+',
-  status: 'Available for freelance',
+  experienceYears: '5+',
+  status: 'hire me ',
   location: 'India',
 
   current: {
@@ -29,16 +29,16 @@ export const profile = {
 
   // TODO: replace with the address you want public. Used by the
   // contact section's copy-to-clipboard and mailto fallback.
-  email: 'your.email@example.com',
+  email: 'dakshay.chauhan.28.srk@gmail.comm',
   // TODO: your phone number. `phone` is what visitors see; `phoneLink`
   // is the dial format (country code, digits only) used for tel: links.
-  phone: '+91 00000 00000',
-  phoneLink: '+910000000000',
+  phone: '+91 9012337116',
+  phoneLink: '+919012337116',
 
   links: {
     linkedin: 'https://www.linkedin.com/in/dakshay-chauhan-b2b453166',
     github: 'https://github.com/dakshay28',
-    fiverr: 'https://www.fiverr.com/', // TODO: paste your gig URL
+    contra: 'https://contra.com/dakshay_chauhan_xsi5dnc7?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=dakshay_chauhan_xsi5dnc7', // TODO: paste your gig URL
   },
 
   // Put a real PDF at public/resume.pdf (a placeholder ships with the repo).
@@ -58,7 +58,7 @@ export const profile = {
 
   // TODO: replace with your real numbers before going live.
   stats: [
-    { label: 'Years building for the web', value: 6, suffix: '+' },
+    { label: 'Years building for the web', value: 5, suffix: '+' },
     { label: 'Projects shipped', value: 40, suffix: '+' },
     { label: 'Websites live today', value: 25, suffix: '+' },
     { label: 'Happy clients', value: 30, suffix: '+' },

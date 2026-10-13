@@ -61,7 +61,7 @@ export const projects = [
     url: 'https://indiaelectronicsexpo.com',
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Landing Pages', 'PHP'],
-    stack: ['WordPress', 'PHP', 'GSAP', 'Tailwind'],
+    stack: ['WordPress', 'PHP', 'GSAP'],
     cover: 'screens/iee.svg',
     images: [
       { src: 'screens/iee-before.svg', label: 'Before' },
