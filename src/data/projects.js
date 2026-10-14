@@ -28,9 +28,9 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'MySQL', 'JavaScript'],
-    cover: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png',
+    cover: 'public/screens/screencapture-escindia-in-2026-10-13-17_56_51.png',
     images: [
-      { src: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png', label: 'Before' },
+      { src: 'public/screens/screencapture-escindia-in-2026-10-13-17_56_51.png', label: 'Before' },
       { src: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description:
@@ -81,14 +81,14 @@ export const projects = [
     id: 'escawards',
     heroTab: 'escawards.in',
     heroOrder: 3,
-    title: 'ESC Awards & IndiaSoft',
+    title: 'ESC Awards ',
     client: 'ESC',
     url: 'https://escawards.in',
     secondaryUrl: 'https://indiasoft.org',
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'REST API'],
-    cover: '/public/screens/screencapture-escawards-in-2026-10-13-17_56_51.png',
+    cover: '/public/screens/scr  eencapture-escawards-in-2026-10-13-17_56_51.png',
     images: [
       { src: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'Before' },
       { src: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'After' },
