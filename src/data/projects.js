@@ -88,7 +88,7 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'REST API'],
-    cover: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png',
+    cover: '/public/screens/screencapture-escawards-in-2026-10-13-17_56_51.png',
     images: [
       { src: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'Before' },
       { src: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'After' },
