@@ -405,7 +405,7 @@ export function drawBrowser(ctx, W, H, a, deployed = false) {
     ctx.fillStyle = C.muted
     ctx.font = `400 20px ${SANS}`
     ctx.fillText('WordPress & PHP Developer', 0.06 * W, 0.5 * H)
-    ctx.fillText('Full-Stack Web Developer · 6+ years', 0.06 * W, 0.55 * H)
+    ctx.fillText('Full-Stack Web Developer ·5+ years', 0.06 * W, 0.55 * H)
     // image snapping in: scale 1.12 → 1
     const snap = seg(type, 0.3, 1)
     const b = BOXES[4]

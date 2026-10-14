@@ -11,7 +11,7 @@ export const profile = {
   role: 'WordPress & PHP Developer',
   roleSecondary: 'Full-Stack Web Developer',
   experienceYears: '5+',
-  status: 'hire me ',
+  status: 'hire me',
   location: 'India',
 
   current: {
@@ -51,9 +51,9 @@ export const profile = {
 
   // About-section story (keep it short — three short paragraphs max).
   story: [
-    'I started with WordPress because it let me ship real sites for real people fast. Six years later I still love that part: turning a brief, a Figma file or a PDF into something a client can log in to and edit on Monday morning.',
-    "Today I'm the Senior Web Developer at ESC, where I look after the council's public sites — escindia.in, indiasoft.org, indiaelectronicsexpo.com and escawards.in. Before that I spent four years building WordPress for iDreamCareer.com.",
-    'Outside the day job I take on freelance work: custom themes, WooCommerce stores, speed fixes, and React front-ends when a project needs more than a CMS.',
+    'Senior Full-Stack WordPress Developer with 5+ years building and scaling high-traffic websites and custom web platforms end toend, from database schema and PHP backend logic through to React front-ends and production deployment',
+    "Specialised in custom WordPress theme and plugin development, WordPress REST API and headless architectures, WooCommerce, and third-party API integrations",
+    'Track record of leading full rebuilds of national-level platforms, owning server setup and migrations on AWS, leading small development teams, and delivering measurable gains in page speed, Core Web Vitals, and organic search performance'
   ],
 
   // TODO: replace with your real numbers before going live.
