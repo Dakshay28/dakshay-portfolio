@@ -28,10 +28,10 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'MySQL', 'JavaScript'],
-    cover: 'screens/escindia.svg',
+    cover: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png',
     images: [
-      { src: 'screens/escindia-before.svg', label: 'Before' },
-      { src: 'screens/escindia.svg', label: 'After' },
+      { src: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png', label: 'Before' },
+      { src: 'screens/screencapture-escindia-in-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description:
       "The council's main public website: member services, events, publications and export-promotion news, maintained and extended in-house.",
@@ -62,10 +62,10 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Landing Pages', 'PHP'],
     stack: ['WordPress', 'PHP', 'GSAP'],
-    cover: 'screens/iee.svg',
+    cover: 'screens/screencapture-indiaelectronicsexpo-com-2026-10-13-17_56_51.png',
     images: [
       { src: 'screens/iee-before.svg', label: 'Before' },
-      { src: 'screens/iee.svg', label: 'After' },
+      { src: 'screens/screencapture-indiaelectronicsexpo-com-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description: 'Event website for the India Electronics Expo — exhibitor information, registrations and visitor details for the show.',
     problem: 'An event site has to handle traffic spikes around registration deadlines and change quickly as the show takes shape.',
@@ -91,7 +91,7 @@ export const projects = [
     cover: 'screens/escawards.svg',
     images: [
       { src: 'screens/escawards-before.svg', label: 'Before' },
-      { src: 'screens/escawards.svg', label: 'After' },
+      { src: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description:
       'Two sibling event properties: the ESC Awards nominations site and IndiaSoft, the council’s software & services exhibition.',
@@ -115,7 +115,7 @@ export const projects = [
     cover: 'screens/idreamcareer.svg',
     images: [
       { src: 'screens/idreamcareer-before.svg', label: 'Before' },
-      { src: 'screens/idreamcareer.svg', label: 'After' },
+      { src: 'screens/screencapture-idreamcareer-com-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description:
       'Four years of WordPress development for a career-guidance platform for students: pages, landing pages, templates and ongoing upkeep.',
@@ -136,8 +136,8 @@ export const projects = [
     role: 'Design & development',
     tags: ['React', 'Landing Pages', 'Freelance'],
     stack: ['React', 'Tailwind', 'Vite'],
-    cover: 'screens/carewell.svg',
-    images: [{ src: 'screens/carewell.svg', label: 'Landing page' }],
+    cover: 'screens/screencapture-carewell-clinic-com-2026-10-13-17_56_51.png',
+    images: [{ src: 'screens/screencapture-carewell-clinic-com-2026-10-13-17_56_51.png', label: 'Landing page' }],
     description: 'Lead-generation landing page for a doctor’s clinic, built for Google and Meta ad traffic.',
     problem: 'Paid traffic converts only if the page loads instantly and the booking path is obvious.',
     solution: 'One focused page, a single booking action repeated at decision points, and a tiny JS footprint.',
@@ -153,8 +153,8 @@ export const projects = [
     role: 'Design & development',
     tags: ['React', 'Freelance'],
     stack: ['React', 'GSAP', 'Framer Motion'],
-    cover: 'screens/noir.svg',
-    images: [{ src: 'screens/noir.svg', label: 'Campaign site' }],
+    cover: 'screens/screencapture-noir-coffee-com-2026-10-13-17_56_51.png',
+    images: [{ src: 'screens/screencapture-beanspotcoffee-2026-10-13-18_04_05 (1).png', label: 'Campaign site' }],
     description: 'Editorial campaign website for a specialty coffee brand: horizontal menu, parallax and six scroll chapters.',
     problem: 'A luxury brand story told through motion, without turning into a slideshow.',
     solution: 'Scroll-driven chapters with restrained motion and real content hierarchy.',
