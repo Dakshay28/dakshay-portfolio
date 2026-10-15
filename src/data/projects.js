@@ -28,10 +28,10 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'MySQL', 'JavaScript'],
-    cover: 'public\screens\screencapture-escindia-in-2026-10-13-17_49_27.png',
+    cover: 'screens/screencapture-escindia-in-2026-10-13-17_49_27.png',
     images: [
-      { src: 'public\screens\screencapture-escindia-in-2026-10-13-17_49_27.png', label: 'Before' },
-      { src: 'public\screens\screencapture-escindia-in-2026-10-13-17_49_27.png', label: 'After' },
+      { src: '/screens/screencapture-escindia-in-2026-10-13-17_49_27.png', label: 'Before' },
+      { src: 'screens/screencapture-escindia-in-2026-10-13-17_49_27.png', label: 'After' },
     ],
     description:
       "The council's main public website: member services, events, publications and export-promotion news, maintained and extended in-house.",
@@ -62,10 +62,10 @@ export const projects = [
     role: 'Senior Web Developer',
     tags: ['WordPress', 'Landing Pages', 'PHP'],
     stack: ['WordPress', 'PHP', 'GSAP'],
-    cover: 'public\screens\screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png',
+    cover: 'screens/screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png',
     images: [
-      { src: 'public\screens\screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png', label: 'Before' },
-      { src: 'public\screens\screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png', label: 'After' },
+      { src: '/screens/screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png', label: 'Before' },
+      { src: 'screens/screencapture-indiaelectronicsexpo-2026-10-14-16_02_44.png', label: 'After' },
     ],
     description: 'Event website for the India Electronics Expo — exhibitor information, registrations and visitor details for the show.',
     problem: 'An event site has to handle traffic spikes around registration deadlines and change quickly as the show takes shape.',
@@ -89,10 +89,10 @@ export const projects = [
     
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'ACF', 'REST API'],
-    cover: 'public/screens/screencapture-escawards-in-2026-10-13-17_56_51.png',
+    cover: 'screens/screencapture-escawards-in-2026-10-13-17_56_51.png',
     images: [
-      { src: 'public/screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'Before' },
-      { src: 'public/screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'After' },
+      { src: '/screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'Before' },
+      { src: '/screens/screencapture-escawards-in-2026-10-13-17_56_51.png', label: 'After' },
     ],
     description:
       'Two sibling event properties: the ESC Awards nominations site and IndiaSoft, the council’s software & services exhibition.',
@@ -113,7 +113,7 @@ export const projects = [
     role: 'WordPress Developer (2021 – 2025)',
     tags: ['WordPress', 'Custom Themes', 'PHP'],
     stack: ['WordPress', 'PHP', 'Elementor', 'MySQL'],
-    cover: '/screens/screencapture-idreamcareer-2026-10-14-15_39_21.png',
+    cover: 'screens/screencapture-idreamcareer-2026-10-14-15_39_21.png',
     images: [
       { src: '/screens/screencapture-idreamcareer-2026-10-14-15_39_21.png', label: 'Before' },
       { src: '/screens/screencapture-idreamcareer-2026-10-14-15_39_21.png', label: 'After' },
