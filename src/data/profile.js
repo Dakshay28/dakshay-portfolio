@@ -42,7 +42,7 @@ export const profile = {
   },
 
   // Put a real PDF at public/resume.pdf (a placeholder ships with the repo).
-  resume: 'resume.pdf',
+  resume: 'public/Dakshay_Chauhan_Resume.pdf',
 
   // Optional form backend (Formspree, Getform, a Cloudflare Worker…).
   // Leave empty and the contact form falls back to opening the
@@ -65,7 +65,7 @@ export const profile = {
   ],
 
   // Path to your photo in /public. Placeholder until you add one.
-  photo: 'avatar.svg',
+  photo: 'public/WhatsApp Image 2026-10-15 at 3.04.46 PM.jpeg',
 }
 
 export const siteUrl = 'https://dakshay28.github.io/dakshay-portfolio/'
