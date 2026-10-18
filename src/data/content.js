@@ -67,11 +67,11 @@ export const services = [
 export const testimonials = [
   {
     type: 'manager',
-    name: 'Manager name',
+    name: 'Ritu singh',
     role: 'Their title',
     company: 'ESC',
     relation: 'Managed Dakshay at ESC',
-    quote: 'Paste your current manager’s feedback here. The best ones mention a specific site or launch and what it changed for the team.',
+    quote: 'We would like to appreciate Dakshay for his dedication, hard work, and valuable contributions as a Web Developer. 👏His commitment to his work and willingness to give his best have been truly appreciated.Wishing him continued growth, new opportunities, and great success in his future endeavours. All the best, Dakshay! 🚀.',
     source: '',
     placeholder: true,
   },
@@ -98,9 +98,9 @@ export const testimonials = [
   },
   {
     type: 'team',
-    name: 'Teammate name',
-    role: 'Their role',
-    company: 'iDreamCareer.com',
+    name: 'Ramansh sharna',
+    role: 'Web-Developer',
+    company: 'ESC',
     relation: 'Shipped campaign pages with Dakshay',
     quote: 'A second teammate quote. Hand-off, code quality and how deadlines were handled are good things for them to mention.',
     source: '',
